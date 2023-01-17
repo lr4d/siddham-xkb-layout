@@ -1,4 +1,7 @@
 # Read text files
+# These files have been created by copy-pasting the webpage contents
+# on unicode.org for the corresponding unicode block of the script.
+# It could probably easily be expanded to add another Indic script
 with open("input/devanagari.txt", "r") as f:
     d = f.read().split("\n")
 with open("input/siddham.txt", "r") as f:
